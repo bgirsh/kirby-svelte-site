@@ -1,0 +1,17 @@
+Title: Home
+
+----
+
+Pagebuilder: [{"content":{"eyebrow":"New release · 2027","title":"Centurion","highlight":"X/T","description":"A hybrid built for the line between paved and pulverized. Engineered for trucks and SUVs that refuse to pick a side.","primarytext":"Find a dealer","primaryurl":"https://delintetires.com","secondarytext":"Read the spec","secondaryurl":"https://delintetires.com"},"id":"45c215fa-db88-4f5e-9d29-800c15b7c30d","isHidden":false,"type":"hero"},{"content":{"eyebrow":"01 · Performance","title":"Numbers that hold the road.","highlight":"that","description":"Independent test data across wet, dry, snow and noise. Every figure backed by a 50,000-mile treadlife warranty.","stats":[{"label":"Treadlife warranty","value":50,"suffix":",000 mi","hint":"Pro-rated, transferable."}]},"id":"ddbb9cd5-b654-4672-8d33-4540a70ff831","isHidden":false,"type":"stats"}]
+
+----
+
+Headline: Welcome to Kirby's Starterkit
+
+----
+
+Subheadline: A fully documented example project
+
+----
+
+Uuid: wljMYhm0m3e9QOwC

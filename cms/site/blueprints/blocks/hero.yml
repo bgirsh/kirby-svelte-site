@@ -1,0 +1,35 @@
+name: Hero
+
+fields:
+
+  eyebrow:
+    label: Eyebrow
+    type: text
+
+  title:
+    label: Title
+    type: text
+
+  highlight:
+    label: Highlight
+    type: text
+
+  description:
+    label: Description
+    type: textarea
+
+  primaryText:
+    label: Primary Button Text
+    type: text
+
+  primaryUrl:
+    label: Primary Button URL
+    type: text
+
+  secondaryText:
+    label: Secondary Button Text
+    type: text
+
+  secondaryUrl:
+    label: Secondary Button URL
+    type: text

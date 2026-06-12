@@ -1,0 +1,15 @@
+title: Home
+
+tabs:
+  content:
+    fields:
+
+      pageBuilder:
+        label: Page Builder
+        type: blocks
+        fieldsets:
+          - hero
+          - stats
+          - feature-grid
+          - sizes
+          - cta
