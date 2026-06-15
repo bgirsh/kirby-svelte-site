@@ -12,7 +12,7 @@
   );
 </script>
 
-<section class="hero">
+<section class="hero test-rebuild">
   <div class="hero__bg" aria-hidden="true"></div>
   <div class="container hero__inner mx-auto px-6">
     <div>
