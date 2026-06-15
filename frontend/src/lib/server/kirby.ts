@@ -1,6 +1,9 @@
-const KIRBY_API_URL = 'http://localhost:8000/api/query';
+import { KIRBY_API_URL } from '$env/static/private';
 
-export async function kirbyQuery(query: string, select: Record<string, unknown>) {
+export async function kirbyQuery(
+  query: string,
+  select: Record<string, unknown>
+) {
   const response = await fetch(KIRBY_API_URL, {
     method: 'POST',
     headers: {
