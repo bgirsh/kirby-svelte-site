@@ -12,7 +12,7 @@
 </script>
 
 <section class="section" id="tech">
-  <div class="container mx-auto px-6">
+  <div class="container">
     <header class="section__head">
       {#if content.eyebrow}
         <span class="eyebrow">{content.eyebrow}</span>
@@ -30,7 +30,7 @@
     {#if features.length}
       <div class="grid grid--2 tech__grid">
         {#each features as feature, index}
-          <article class="feature reveal">
+          <article class="feature reveal is-revealed">
             {#if feature.icon}
               <div class="feature__icon" aria-hidden="true">
                 {@html feature.icon}

@@ -1,1 +1,21 @@
 Title: Mægazine
+
+----
+
+Mainnavigation:
+
+- 
+  label: Overview
+  url: '#overview'
+- 
+  label: Performance
+  url: '#performance'
+- 
+  label: Engineering
+  url: '#tech'
+- 
+  label: Sizes
+  url: '#sizes'
+- 
+  label: Find a dealer
+  url: '#dealer'

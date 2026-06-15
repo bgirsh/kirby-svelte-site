@@ -12,9 +12,9 @@
 </script>
 
 <section class="section" id="sizes">
-  <div class="container mx-auto px-6">
+  <div class="container mx-auto pt-[var(--s-5)]">
     <div class="sizes__head">
-      <header class="section__head">
+      <header class="section__head !mb-0">
         {#if content.eyebrow}
           <span class="eyebrow">{content.eyebrow}</span>
         {/if}
@@ -34,7 +34,7 @@
     </div>
 
     {#if sizes.length}
-      <div class="grid grid--sizes justify-items-center" role="list">
+      <div class="grid grid--sizes" role="list">
         {#each sizes as size}
           <button class="size" role="listitem" type="button">
             <span class="size__code">{size.sizeCode ?? size.sizecode}</span>

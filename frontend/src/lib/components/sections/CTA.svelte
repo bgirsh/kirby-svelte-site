@@ -10,7 +10,7 @@
   );
 </script>
 
-<section id="dealer" class="container mx-auto px-6">
+<section id="dealer" class="container">
   <div class="cta">
     <div class="cta__inner">
       {#if titleHtml}
@@ -21,6 +21,7 @@
         {#if content.primarytext && content.primaryurl}
           <a class="btn btn--primary" href={content.primaryurl}>
             {content.primarytext}
+            <svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"></path></svg>
           </a>
         {/if}
 

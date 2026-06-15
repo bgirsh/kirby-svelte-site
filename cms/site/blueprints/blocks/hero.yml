@@ -2,9 +2,20 @@ name: Hero
 
 fields:
 
-  eyebrow:
-    label: Eyebrow
-    type: text
+    eyebrows:
+      label: Eyebrows
+      type: structure
+      fields:
+        chip:
+          label: Chip
+          type: text
+
+        chipAccent:
+          label: Chip Accent
+          type: toggle
+          text:
+            - "No"
+            - "Yes"
 
   title:
     label: Title
@@ -33,3 +44,43 @@ fields:
   secondaryUrl:
     label: Secondary Button URL
     type: text
+
+  heroArt:
+    label: Hero Art
+    type: text
+
+  heroArtCallout:
+      label: Callouts
+      type: structure
+      fields:
+        top:
+          label: Top
+          type: text
+        right:
+          label: Right
+          type: text
+        bottom:
+          label: Bottom
+          type: text
+        left:
+          label: Left
+          type: text
+        direction:
+          label: Direction
+          type: toggle
+          text:
+            - "row"
+            - "row-reverse"
+        pointPosition:
+          label: Point Position
+          type: toggle
+          text:
+            - " "
+            - "callout--br"
+
+        title:
+          label: Title
+          type: text
+        copy:
+          label: Copy
+          type: text
