@@ -34,9 +34,9 @@
     </div>
 
     {#if sizes.length}
-      <div class="grid grid--sizes" role="list">
+      <div class="grid grid--sizes">
         {#each sizes as size}
-          <button class="size" role="listitem" type="button">
+          <button class="size" type="button">
             <span class="size__code">{size.sizeCode ?? size.sizecode}</span>
             <span class="size__meta">{size.sizeMeta ?? size.sizemeta}</span>
           </button>

@@ -10,7 +10,11 @@
   } = $props();
 
   let el: HTMLSpanElement;
-  let value = $state(from);
+  let value = $state(0);
+
+  $effect(() => {
+    value = Number(from);
+  });
   let frame: number | null = null;
 
   const easeOutCubic = (t: number) => 1 - Math.pow(1 - t, 3);
