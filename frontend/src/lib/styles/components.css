@@ -487,6 +487,16 @@ span.callout__line {
     letter-spacing: 0.08em;
     text-transform: uppercase;
 }
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
 
 /* CTA MODULE */
 .cta {

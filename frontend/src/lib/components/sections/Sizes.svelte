@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Carousel from '$lib/components/common/Carousel.svelte';
   let { block }: { block: any } = $props();
 
   let content = $derived(block.content ?? block);
@@ -44,4 +45,5 @@
       </div>
     {/if}
   </div>
+  <Carousel images={content.gallery} />
 </section>
