@@ -487,8 +487,14 @@ span.callout__line {
     letter-spacing: 0.08em;
     text-transform: uppercase;
 }
+.carousel {
+  position: relative;
+  width: 465px;
+  max-width: 100%;
+}
 .embla {
   overflow: hidden;
+  width: 100%;
 }
 .embla__container {
   display: flex;
@@ -496,6 +502,24 @@ span.callout__line {
 .embla__slide {
   flex: 0 0 100%;
   min-width: 0;
+}
+.embla__slide img {
+  width: 100%;
+  height: 465px;
+  object-fit: cover;
+  display: block;
+}
+.carousel__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+.carousel__arrow--prev {
+  left: 1rem;
+}
+.carousel__arrow--next {
+  right: 1rem;
 }
 
 /* CTA MODULE */

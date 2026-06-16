@@ -23,3 +23,20 @@ export async function kirbyQuery(
 
   return json.result;
 }
+
+export async function kirbyFileQuery(fileIds: string[]) {
+  if (!fileIds.length) return [];
+
+  return kirbyQuery('page("home").files', {
+    files: {
+      query: 'page("home").files',
+      select: {
+        id: true,
+        uuid: true,
+        filename: true,
+        url: true,
+        alt: true
+      }
+    }
+  });
+}
