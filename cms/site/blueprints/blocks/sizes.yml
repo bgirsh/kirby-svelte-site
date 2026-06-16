@@ -27,3 +27,11 @@ fields:
       sizeMeta:
         label: Size Meta
         type: text
+
+  gallery:
+    label: Gallery
+    type: files
+    multiple: true
+    layout: cards
+    image:
+      cover: true
